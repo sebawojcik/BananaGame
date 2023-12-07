@@ -10,11 +10,12 @@
 <body>
     <h1>Tomato Game</h1>
     <img id="questionImage" src="" alt="Tomato Question">
+    <br></br>
     <label for="answerInput">Your Answer:</label>
     <input type="text" id="answerInput">
     <button onclick="checkAnswer()">Submit Answer</button>
     <p id="resultLabel"></p>
-    <button onclick="startNewGame()">Start New Game</button>
+    <button id="startNewGameButton" onclick="startNewGame()" style="background-color: red;">Start New Game</button>
 
     <script src="app.js"></script>
 </body>

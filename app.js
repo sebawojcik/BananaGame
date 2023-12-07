@@ -7,6 +7,9 @@ function startNewGame() {
     document.getElementById("resultLabel").textContent = "";
     document.getElementById("answerInput").value = "";
 
+    // Disable the "Start New Game" button
+    document.getElementById("startNewGameButton").disabled = true;
+
     // Make a request to the API
     fetch("https://marcconrad.com/uob/tomato/api.php")
         .then(response => response.json())
@@ -27,7 +30,10 @@ function checkAnswer() {
     // Check if the answer is correct
     if (userAnswer === window.correctAnswer) {
         document.getElementById("resultLabel").textContent = "Correct!";
+        // Enable the "Start New Game" button upon correct answer
+        document.getElementById("startNewGameButton").disabled = false;
     } else {
         document.getElementById("resultLabel").textContent = "Wrong. Try again.";
     }
 }
+
