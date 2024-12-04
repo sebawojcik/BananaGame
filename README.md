@@ -1,4 +1,4 @@
-# Tomato Game
+# Banana Game
 
 A simple web app where users can play the Tomato Game. Users are presented with a tomato-related question and need to input the correct answer. The app fetches questions from an external API.
 
@@ -29,11 +29,11 @@ A simple web app where users can play the Tomato Game. Users are presented with 
 ## API Information
 
 The app fetches questions from the following API:
-- API URL: [https://marcconrad.com/uob/tomato/api.php](https://marcconrad.com/uob/tomato/api.php)
+- API URL: [https://marcconrad.com/uob/banana/api.php](https://marcconrad.com/uob/banana/api.php)
 - Response Format: JSON
 - Example Response:
   ```json
   {
-    "question": "https://www.sanfoh.com/uob/tomato/data/t08ffc98a36438a8a0217a3b5c0n174.png",
+    "question": "https://www.sanfoh.com/uob/banana/data/tedb951c740ef479cb13842fb89n14.png",
     "solution": 4
   }

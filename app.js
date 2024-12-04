@@ -11,7 +11,7 @@ function startNewGame() {
     document.getElementById("startNewGameButton").disabled = true;
 
     // Make a request to the API
-    fetch("https://marcconrad.com/uob/tomato/api.php")
+    fetch("https://marcconrad.com/uob/banana/api.php")
         .then(response => response.json())
         .then(data => {
             // Update the question image source
