@@ -1,12 +1,12 @@
 # Banana Game
 
-A simple web app where users can play the Tomato Game. Users are presented with a tomato-related question and need to input the correct answer. The app fetches questions from an external API.
+A simple web app where users can play the Banana Game. Users are presented with a banana-related question and need to input the correct answer. The app fetches questions from an external API.
 
 ## How to Play
 
 1. Open `index.html` in a web browser.
 
-2. The game will start automatically, presenting you with a tomato-related question.
+2. The game will start automatically, presenting you with a banana-related question.
 
 3. Input your answer in the provided text field.
 
